@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dada Snake</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="container">
+	<div id="overlay">
+		Your Score: <span id="userscore"></span>
+		<br>
+		<a onClick="window.location.reload()" href="#">Click to play again</a>
+
+	</div>
+	<canvas id="canvas" width="600" height="450">
+		<p>Sorry pls update</p>
+
+	</canvas>
+	<div id="stats">
+		<div id="score">
+			
+
+		</div>
+		<div id="highscore"></div>
+		<button onclick="resetScore()" id="reset_score">Reset High score</button>
+
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
